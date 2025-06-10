@@ -1,0 +1,16 @@
+Running a python code in visual code:
+
+Commands:
+1)cd ~/Downloads/Crop_Recommendation_App
+
+# Create a virtual environment (if not done yet)
+2)python3 -m venv venv
+
+# Activate it
+3)source venv/bin/activate
+
+# Install required packages
+4)pip install -r requirements.txt
+
+# Run the Flask app
+5)python app.py
